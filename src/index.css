@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-quantum-900 text-white font-sans antialiased m-0 min-h-screen;
+    background: radial-gradient(circle at 50% 50%, #151530 0%, #0a0a1a 100%);
+  }
+}
+
+.glass-panel {
+  @apply bg-quantum-800/60 backdrop-blur-md border border-white/10 rounded-xl shadow-2xl;
+}
